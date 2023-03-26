@@ -1,0 +1,77 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  border: 1px grey solid;
+  border-radius: 10%;
+  padding: 1em;
+  margin-top: 1em;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+h1 {
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+h2::first-letter {
+  text-transform: uppercase;
+}
+
+.statWrapper {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 3em;
+}
+
+.statRowContainer {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 1px;
+}
+
+h3 {
+  width: 75px;
+}
+
+span {
+  width: 50px;
+}
+/* Feelin cute might delete later
+h3, span {
+  border: 1px dashed black;
+} */
+
+span {
+  text-align: center;
+  align-self: center; /*align up and down, justify left and right */
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
